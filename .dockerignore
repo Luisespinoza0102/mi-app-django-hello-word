@@ -1,0 +1,33 @@
+# Ignorar entorno virtual
+venv
+venv/
+
+# Ignorar archivos pycache y compilados de Python
+_pycache_
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de base de datos SQLite
+db.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos de IDE/editor
+.vscode
+.idea
+
+# Archivos de entorno
+.env
+
+# Carpeta de migraciones (opcional, si quieres reconstruirlas en docker)
+*/migrations
+
+# Archivos temporales
+*.swp
+*~
